@@ -1,0 +1,34 @@
+Descripción del Proyecto
+Este proyecto se centra en el desarrollo de dos programas en Java destinados al procesamiento y análisis de datos de ventas y productos. El objetivo principal es gestionar archivos de entrada que contienen información de ventas de varios vendedores y productos, y generar reportes analíticos basados en estos datos.
+
+Componentes del Proyecto
+Generación de Archivos de Entrada:
+
+GenerateInfoFiles: Este programa genera archivos pseudoaleatorios necesarios para el procesamiento. Crea archivos de ventas para varios vendedores, información de productos y datos de vendedores. Los archivos generados siguen los formatos especificados para garantizar la coherencia y la funcionalidad de la aplicación.
+Procesamiento de Datos y Generación de Reportes:
+
+Main: Este programa se encarga de procesar los archivos generados por GenerateInfoFiles. Lee los archivos de ventas y de información de productos para calcular las ventas totales por vendedor y las cantidades vendidas por producto. Posteriormente, genera dos reportes:
+Un archivo CSV con el reporte de ventas de los vendedores, ordenado de mayor a menor recaudación.
+Un archivo CSV con el reporte de productos vendidos, ordenado de mayor a menor cantidad vendida.
+Requisitos del Proyecto
+Archivos de Entrada:
+
+Archivos de ventas por vendedor, con detalles de las transacciones.
+Archivo con la información de los vendedores (tipo de documento, número de documento, nombres y apellidos).
+Archivo con la información de los productos (ID, nombre y precio).
+Generación de Reportes:
+
+Reporte CSV de ventas por vendedor.
+Reporte CSV de productos vendidos.
+Funcionalidades Clave
+Generación de Archivos de Prueba:
+
+Métodos para crear archivos de ventas y productos de manera pseudoaleatoria.
+Métodos para crear información de vendedores con datos ficticios pero coherentes.
+Procesamiento de Archivos:
+
+Lectura y análisis de archivos de ventas y productos.
+Acumulación de ventas por vendedor y cantidades vendidas por producto.
+Generación de reportes ordenados y bien formateados en archivos CSV.
+Documentación y Buenas Prácticas
+El código está documentado de acuerdo a los estándares de Java, siguiendo buenas prácticas de programación en términos de espaciado, nombramiento de variables y manejo de excepciones.
